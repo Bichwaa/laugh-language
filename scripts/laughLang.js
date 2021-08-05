@@ -10,12 +10,9 @@ async function getJoke(){
       .catch(function (error) {
         console.log(error);
       })
-    //   .then(function () {
-    //     // always executed
-    //   }); 
 }
 
-// getJoke()
+getJoke()
 
 another.addEventListener('click',async function(e){
     e.preventDefault()
